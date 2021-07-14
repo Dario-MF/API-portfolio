@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const apiRouter = require('./routes/routes');
@@ -21,7 +20,7 @@ app.use(express.json());
 app.use('/api', apiRouter);
 
 // APP route
-app.use(express.static(path.join(__dirname, 'public')));
+app.use( express.static('public'));
 
 
 // Server init
