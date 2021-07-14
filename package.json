@@ -2,10 +2,8 @@
   "name": "backportfolio",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://dario-mf.github.io/API-portfolio",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d public",
     "start": "index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +16,6 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "gh-pages": "^3.2.3",
-    "googleapis": "^81.0.0",
     "nodemailer": "^6.6.2",
     "nodemailer-smtp-transport": "^2.7.4"
   },
